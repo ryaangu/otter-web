@@ -1,2 +1,2 @@
 ## The Otter Programming Language (but online!)
-**Otter Web** is a simple and cool online compiler that can be accessed by clicking [here](), all it does is let you write some **Otter** code and interpret it, pretty cool right?
+**Otter Web** is a simple and cool online compiler that can be accessed by clicking [here](https://ryaangu.github.io/otter-web/), all it does is let you write some **Otter** code and interpret it, pretty cool right?
