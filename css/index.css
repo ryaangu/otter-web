@@ -1,0 +1,104 @@
+body
+{
+    background-color: rgb(36, 41, 46);
+}
+
+button, select, option
+{
+    width: fit-content;
+    margin-right: -15px;
+    margin-left:        30px;
+    background-color: rgb(122, 207, 135);
+    border-color:     rgb(31, 36, 40);
+    border-radius:       10%;
+    /* width:               60px; */
+    height:              30px;
+    margin-top:         -13px;
+    margin-bottom:       10px;
+    box-shadow:          none;
+    color:             rgb(36, 41, 46);
+    font-family:         "Iosevka Term Extended";
+    font-weight:         bold;
+    font-size:           15px;
+}
+
+select
+{
+    outline: none;
+}
+
+button:hover, select:hover, option:hover
+{
+    background-color: rgb(98, 165, 108);
+    cursor: pointer; 
+}
+
+.title
+{
+    color:     rgb(122, 207, 135);
+    font-family: "Iosevka Term Extended";
+    margin-left: 30px;
+    margin-top:  10px;
+}
+
+.small-title
+{
+    color:     rgb(122, 207, 135);
+    font-family: "Iosevka Term Extended";
+    margin-left: 30px;
+    margin-top: -15px;
+}
+
+textarea
+{
+    display:            inline;
+    resize:             none;
+    border-width:       3px;
+    color:            rgb(122, 236, 139);
+    border-color:     rgb(31, 36, 40);
+    background-color: rgb(36, 41, 46);
+    font-style:         italic;
+    font-size:          17px;
+    font-family:        "Iosevka Term Extended";
+    margin-left:        30px;
+    outline:            none;
+    width:              600px;
+    height:             500px;
+}
+
+#canvas
+{
+    margin-left: 30px;
+}
+
+#code:focus
+{
+    border-color: rgb(122, 207, 135);
+}
+
+.code-title
+{
+    color:     rgb(122, 207, 135);
+    font-family: "Iosevka Term Extended";
+    margin:      0px 0px 0px 30px;
+}
+
+.output-title
+{
+    color:     rgb(122, 207, 135);
+    font-family: "Iosevka Term Extended";
+    margin:      -20px 0px 0px 672px;
+}
+
+.canvas-title
+{
+    color:     rgb(122, 207, 135);
+    font-family: "Iosevka Term Extended";
+    margin:      0px 0px 0px 30px;
+}
+
+#editor { 
+    width: 500px;
+    height: 400px;
+    left: 29px;
+}

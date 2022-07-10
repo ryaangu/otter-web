@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!-- Settings -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Styling -->
+    <link rel="stylesheet" href="css/index.css">
+
+    <!-- Window -->
+    <title>Otter Web</title>
+
+    <!-- Libraries -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.6.0/ace.js"></script>
+
+</head>
+
+<body>
+    <!-- Simple IDE for testing -->
+    <h2 class="title">Otter Web</h2>
+    <h5 class="small-title">Run Otter code through a browser!</h5>
+
+    <button id="run">Run</button>
+    <button id="clear">Clear</button>
+
+    <select id="target">
+        <option value="javascript">JavaScript</option>
+        <option value="x64">x64</option>
+    </select>
+
+    <h4 class="code-title">Input</h4>
+    <h4 class="output-title">Output</h4>
+
+    <textarea id="code" spellcheck="false"></textarea>
+    <textarea id="output" readonly="true" spellcheck="false"></textarea>
+
+    <!-- Main Source -->
+    <script src="js/index.js" type="module"></script>
+
+</body>
+
+</html>
