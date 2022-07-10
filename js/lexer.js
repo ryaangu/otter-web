@@ -60,7 +60,7 @@ export function lex(source)
                     character = source.charAt(++current);
             }
 
-            tokens.push({ kind: "NUMBER", value: parseInt(source.substring(start, current)) });
+            tokens.push({ kind: "NUMBER", value: parseFloat(source.substring(start, current)) });
         }
         else if (character == "+")
             tokens.push({ kind: "PLUS" });
